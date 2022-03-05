@@ -1,0 +1,132 @@
+*{
+    background-color: #eeebf5;
+}
+.display-title{
+    text-align: center;
+}
+.lifebrary{
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+}
+#book-form{
+    margin: 0 auto;
+    display: table;
+    width: 30%;
+}
+.form-group{
+    display: grid;
+    text-align: initial;
+}
+label{
+    font-weight: bold;
+}
+#title{
+    line-height:170%;
+    border: 1px solid rgba(138, 48, 221, 0.699);
+    font-style: italic;
+}
+#title:focus{
+    background-color: rgba(138, 48, 221, 0.699) ;
+    outline: none !important;
+    border: 1px solid black;
+    box-shadow: 3px 0 10px rgba(137, 48, 221, 0.329);
+}
+#author{
+    line-height:170%;
+    border: 1px solid rgba(138, 48, 221, 0.699);
+    font-style: italic;
+}
+#author:focus{
+    background-color: rgba(138, 48, 221, 0.699) ;
+    outline: none !important;
+    border: 1px solid black;
+    box-shadow: 3px 0 10px rgba(137, 48, 221, 0.329);
+}
+#genre{
+    line-height:170%;
+    border: 1px solid rgba(138, 48, 221, 0.699);
+    font-style: italic;
+}
+#genre:focus{
+    background-color: rgba(138, 48, 221, 0.699) ;
+    outline: none !important;
+    border: 1px solid black;
+    box-shadow: 3px 0 10px rgba(137, 48, 221, 0.329);
+}
+.add-book{
+    width: 100%;
+    padding: 2%;
+    margin-top: 5%;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.add-book:hover{
+    box-shadow: 3px 5px 10px rgba(137, 48, 221, 0.329);
+}
+.table{
+    margin-top: 3%;
+}
+th, td {
+	border: 1.5px solid black;
+	padding: 8px;
+    cursor: context-menu;
+    text-align: center;
+    background-color: #d8d2e9d0;
+}
+
+thead th {
+  width: 25%;
+}
+.delete-td{
+    background-color: rgb(233, 59, 59);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.remove-btn{
+    text-decoration: none;
+    background-color: rgb(233, 59, 59);
+    color: black;
+}
+.errorMsg{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    display: table;
+    border: 2px solid black;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    width: 30%;
+    padding: 0.5%;
+    background: rgb(233, 59, 59);
+    margin-bottom: 1%;
+    cursor: context-menu;
+}
+.successMsg{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    display: table;
+    border: 2px solid black;
+    border-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 0px;
+    width: 27%;
+    padding: 0.5%;
+    background: rgb(172, 231, 84);
+    margin-bottom: 1%;
+    cursor: context-menu;
+    padding-left: 2%;
+    padding-right: 2%;
+}
