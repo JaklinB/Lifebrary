@@ -130,3 +130,12 @@ thead th {
     padding-left: 2%;
     padding-right: 2%;
 }
+
+@media (max-width: 500px){
+    .errorMsg{
+        width: 90%;
+    }
+    .successMsg{
+        width: 90%;
+    }
+}
